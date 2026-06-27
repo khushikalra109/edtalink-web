@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://edtalink.com/sitemap.xml
