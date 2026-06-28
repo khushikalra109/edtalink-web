@@ -53,10 +53,7 @@ export default function Navbar() {
           </NavLink>
         </div>
 
-        <div className="flex items-center gap-3 lg:hidden">
-          <div className="rounded-[1rem] border border-slate-200 bg-gradient-to-br from-white via-slate-50 to-slate-100 p-1.5 shadow-sm">
-            <img src={logo} alt="EdTaLink educational recruitment consultancy logo" width="144" height="36" loading="lazy" className="h-9 w-auto rounded-[0.75rem] object-contain" />
-          </div>
+        <div className="lg:hidden">
           <button className="rounded-full border border-slate-200 bg-white/80 p-2.5 text-slate-700 shadow-sm" onClick={() => setIsOpen((prev) => !prev)} aria-label="Toggle navigation menu" aria-expanded={isOpen}>
             {isOpen ? <FiX className="h-5 w-5" /> : <FiMenu className="h-5 w-5" />}
           </button>
